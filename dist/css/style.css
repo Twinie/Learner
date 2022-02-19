@@ -12013,6 +12013,7 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Inter", sans-serif;
+  background-color: #f6f8fb;
 }
 
 .bg-info-header {
@@ -12044,6 +12045,11 @@ body {
 
 .left-sidebar {
   width: fit-content;
+}
+
+.personal,
+.educator {
+  font-size: 0.8125rem;
 }
 
 .sidebar-items:hover {
