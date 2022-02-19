@@ -1,0 +1,52 @@
+.bg-dark-info {
+  padding-top: 285px;
+}
+.row8-dms {
+  padding-top: 90px;
+  padding-bottom: 35px;
+  border-bottom: #204362 1px solid;
+}
+.row9-dms {
+  padding-bottom: 120px;
+  .col-2-one,
+  .col-2-two,
+  .col-2-three {
+    a {
+      color: $light;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+.full-input {
+  border: 1px #ccd7e1 solid;
+  padding: 16px 18px;
+  border-radius: 6px;
+  max-width: 363px;
+}
+.col-5-four {
+  max-width: 363px;
+  width: 100%;
+  margin-left: auto;
+}
+.twitter,
+.fb,
+.li {
+  color: $white;
+  &:hover {
+    color: $primary;
+  }
+}
+
+@media (min-width: 375px) {
+  .col-5-four {
+    margin-right: auto;
+  }
+}
+@media (min-width: 992px) {
+  .col-5-four {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

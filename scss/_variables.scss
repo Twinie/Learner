@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@200;300;400;500&display=swap");
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #777e89 !default; //changed Hi-text
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #707582 !default; //changed
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #11142d !default; //changed
+$black: #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900,
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue: #1a9bfc !default; //changed
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #f9c78f !default;
+$yellow: #ffc107 !default;
+$green: #3cd278 !default;
+$teal: #20c997 !default;
+$cyan: #2553b9 !default; //changed
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800,
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $orange !default; //changed
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+) !default;
+
+$min-contrast-ratio: 1.2 !default;
+
+$font-family-sans-serif: "DM Sans", sans-serif !default;
+
+$body-color: $gray-600 !default;
+
+$headings-color: $gray-900 !default;
+
+$h1-font-size: 40px !default;
+$h2-font-size: 36px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 21px !default;
+$h5-font-size: 17px !default;
+$h6-font-size: 14px !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1170px,
+  xl: 1170px,
+  xxl: 1170px,
+) !default;
+
+$grid-gutter-width: 30px !default;
+
+$btn-padding-y-sm: 10px !default;
+$btn-padding-x-sm: 17px !default;
+$btn-font-size-sm: 17px !default;
+$btn-border-radius-sm: 5px !default;
+
+$btn-padding-y: 10px !default;
+$btn-padding-x: 36px !default;
+$btn-font-size: 17px !default;
+$btn-border-radius: 4px !default;
+
+$btn-padding-y-lg: 18px !default;
+$btn-padding-x-lg: 40px !default;
+$btn-font-size-lg: 17px !default;
+
+$enable-negative-margins: true !default;
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 1.875rem,
+  5: 1.25rem,
+  6: 1.125rem,
+) !default;
+
+$input-font-size-lg: 16px !default;
+$input-placeholder-color: #668199 !default;
+
+// Accordion
+
+// scss-docs-start accordion-variables
+$accordion-padding-y: 32px !default;
+$accordion-padding-x: 42px !default;
+$accordion-color: #102d47 !default;
+$accordion-bg: #fff !default;
+$accordion-border-radius: 14px !default;
+$accordion-border-color: #fff !default;
+
+$accordion-icon-width: 1rem !default;
+$accordion-icon-transform: url("/images/minus.png") !default;
+
+$accordion-button-icon: url("/images/plus.png") !default;
+$accordion-button-active-icon: url("/images/minus.png") !default;
+
+//font-size
+$font-size-base: 0.9375rem !default; // Assumes the browser default, typically `15px`
+$font-size-sm: 0.8125rem !default;
+$font-size-lg: 0.875rem !default;
+
+$input-placeholder-color: black !default;
+$input-bg: #e7eaf0 !default;

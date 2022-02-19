@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "sass": "^1.49.8"
+  },
+  "name": "lerner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-to-css": "sass ./scss/style.scss ./dist/css/style.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

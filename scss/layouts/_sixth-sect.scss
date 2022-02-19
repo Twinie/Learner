@@ -1,0 +1,33 @@
+.heading-accordion-query {
+  // width: 780px;
+  margin-bottom: -190px;
+}
+.accordion-query {
+  border-radius: 14px;
+}
+.accordion-holder {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+}
+.query-holder {
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.accordion-button {
+  font-size: 20px;
+
+  &:focus {
+    border: none;
+    border-color: #fff;
+    box-shadow: 0 0 0 0;
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: $blue;
+}
+.query-section {
+  background-color: #f3f9fd;
+}

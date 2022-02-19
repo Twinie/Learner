@@ -1,0 +1,52 @@
+.bg-light-info {
+  background-color: #f3f9fd;
+}
+
+.row3-dms {
+  padding-top: 115px;
+  padding-bottom: 160px;
+}
+.content-holder {
+  border-radius: 10px;
+  max-width: 560px;
+  height: 560px;
+}
+.learn-button {
+  color: $primary;
+  &:hover {
+    color: $dark;
+  }
+}
+.image-content {
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-right: 220px;
+  padding-bottom: 20px;
+}
+.image-developer {
+  background-image: url("/images/Developer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-mobile {
+  background-image: url("/images/mobile-app.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-project {
+  background-image: url("/images/FE-project.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 375px) {
+  .image-content {
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-content {
+    padding-right: 220px;
+  }
+}
