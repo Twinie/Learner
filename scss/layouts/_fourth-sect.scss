@@ -1,59 +1,8 @@
 .row4-dms {
   padding-top: 125px;
 }
-.month-annual {
-  background-color: #f3f9fd;
-  max-width: 315px;
-  height: max-content;
-  border-radius: 10px;
-}
-.month,
-.annual {
-  cursor: pointer;
-  padding: 10px 38px;
-  height: 47px;
-  color: $body-color;
-  &:active {
-    background-color: #fff;
-    color: $dark;
-  }
-}
-.nav-tabs .nav-link {
-  border-radius: 8px;
-}
-.yearly-plan {
-  background-image: url("/images/yearly-plan-image.png");
-  background-repeat: no-repeat;
-  height: 580px;
-  max-width: 360px;
-  border-radius: 13px;
-  &:hover {
-    box-shadow: 5px 5px 2px #cce1f3;
-  }
-}
-.plans {
-  width: 250px;
-}
-.price {
-  font-size: 48px;
-}
-.price-month {
-  font-size: 16px;
-}
-.price-caption {
-  border-bottom: #e4eaef 1px solid;
-}
-.basic-detail {
-  font-size: 15px;
-}
-.basic,
-.professional {
-  border-radius: 13px;
-  box-shadow: 1px 3px 4px #eff2f5;
-  &:hover {
-    box-shadow: 5px 5px 8px #f3f9fd;
-  }
-}
-.row4-dms2 {
-  padding-bottom: 150px;
+.month {
+  border: #e6ecf6 3px solid;
+  border-radius: 30px;
+  height: fit-content;
 }

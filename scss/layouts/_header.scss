@@ -8,15 +8,16 @@ body {
   position: relative;
   z-index: 1;
 }
+.box-radius {
+  border-radius: 15px;
+}
 .navbar {
   line-height: 60px;
   .navbar-brand {
     margin-right: 235px;
   }
 }
-.flex-dms {
-  width: 650px;
-}
+
 .search-button {
   max-width: 600px;
   height: 40px;
@@ -27,6 +28,7 @@ body {
 }
 .left-sidebar {
   width: fit-content;
+  background-color: #f6f8fb;
 }
 .personal,
 .educator {
@@ -61,16 +63,67 @@ body {
   }
 }
 
-@media (min-width: 365px) and (max-width: 546px) {
+//Hamburger menu
+
+.menu-dms {
+  margin-left: 200px;
+  transition: margin-left 1s;
+}
+.hamburger {
+  cursor: pointer;
+  transition: margin-left 1s;
+}
+
+.left-sidebar {
+  z-index: 1;
+  margin-left: -260px;
+  transition: margin-left 1s;
+}
+.bar-hide {
+  margin-left: 0px;
+  transition: margin-left 1s;
+}
+@media (min-width: 365px) {
   .navbar {
+    line-height: 25px;
     .navbar-brand {
       margin-right: 60px;
     }
   }
+  .search-button {
+    max-width: 200px;
+  }
 }
 
-@media (min-width: 365px) and (max-width: 992px) {
+@media (min-width: 1200px) {
   .navbar {
-    line-height: 25px;
+    line-height: 60px;
+  }
+  .search-button {
+    max-width: 300px;
+  }
+  .navbar {
+    .navbar-brand {
+      margin-right: 135px;
+    }
+  }
+}
+@media (min-width: 1820px) {
+  .navbar {
+    line-height: 60px;
+  }
+  .left-sidebar {
+    margin-left: 0;
+  }
+  .search-button {
+    max-width: 600px;
+  }
+  .flex-dms {
+    width: 650px;
+  }
+  .navbar {
+    .navbar-brand {
+      margin-right: 235px;
+    }
   }
 }

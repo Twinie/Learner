@@ -1,39 +1,6 @@
-.row2-dms {
-  padding-top: 160px;
-  // padding-bottom: 120px;
+.text1 {
+  color: #39cb7f;
 }
-.heading-text {
-  letter-spacing: -1.2px;
-}
-.card {
-  border: white 1px solid;
-  box-shadow: 1px 3px 4px #eff2f5;
-  border-radius: 13px;
-  &:hover {
-    cursor: pointer;
-    border: #0d6efd 1px solid;
-    .get-start {
-      visibility: visible;
-      border: none;
-    }
-  }
-}
-.list-group-item {
-  padding: 0;
-  border: none;
-}
-.get-start {
-  visibility: hidden;
-}
-
-@media (min-width: 375px) and (max-width: 600px) {
-  .box-content {
-    padding: 6px;
-    justify-content: space-between;
-  }
-}
-@media (min-width: 992px) and (max-width: 1150px) {
-  .box-content {
-    padding: 15px;
-  }
+.price-category {
+  color: #969aa3;
 }

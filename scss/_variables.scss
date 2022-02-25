@@ -35,10 +35,10 @@ $grays: (
 // scss-docs-start color-variables
 $blue: #1a9bfc !default; //changed
 $indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
+$purple: #c58dff !default; //changed
 $pink: #d63384 !default;
 $red: #dc3545 !default;
-$orange: #f9c78f !default;
+$orange: #f9c78f !default; //changed before
 $yellow: #ffc107 !default;
 $green: #3cd278 !default;
 $teal: #20c997 !default;
@@ -98,7 +98,7 @@ $h1-font-size: 40px !default;
 $h2-font-size: 36px !default;
 $h3-font-size: 24px !default;
 $h4-font-size: 21px !default;
-$h5-font-size: 17px !default;
+$h5-font-size: 16px !default;
 $h6-font-size: 14px !default;
 
 $container-max-widths: (
@@ -157,8 +157,8 @@ $accordion-button-active-icon: url("/images/minus.png") !default;
 
 //font-size
 $font-size-base: 0.9375rem !default; // Assumes the browser default, typically `15px`
-$font-size-sm: 0.8125rem !default;
-$font-size-lg: 0.875rem !default;
+$font-size-sm: 0.8125rem !default; //13px
+$font-size-lg: 0.875rem !default; //14px
 
 $input-placeholder-color: black !default;
 $input-bg: #e7eaf0 !default;

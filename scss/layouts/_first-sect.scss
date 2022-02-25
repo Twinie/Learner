@@ -1,8 +1,23 @@
 .position-absolute {
   top: 0;
-  left: 365px;
+  left: 0;
 }
 .add-new {
   background-color: #1a9bfc;
   border-radius: 20px;
+  width: max-content;
+}
+.text-color {
+  color: #c58dff;
+}
+.plus {
+  height: 20px;
+  width: 20px;
+  &:before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
