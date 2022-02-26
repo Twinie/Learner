@@ -139,22 +139,6 @@ $display-font-sizes: (
 $input-font-size-lg: 16px !default;
 $input-placeholder-color: #668199 !default;
 
-// Accordion
-
-// scss-docs-start accordion-variables
-$accordion-padding-y: 32px !default;
-$accordion-padding-x: 42px !default;
-$accordion-color: #102d47 !default;
-$accordion-bg: #fff !default;
-$accordion-border-radius: 14px !default;
-$accordion-border-color: #fff !default;
-
-$accordion-icon-width: 1rem !default;
-$accordion-icon-transform: url("/images/minus.png") !default;
-
-$accordion-button-icon: url("/images/plus.png") !default;
-$accordion-button-active-icon: url("/images/minus.png") !default;
-
 //font-size
 $font-size-base: 0.9375rem !default; // Assumes the browser default, typically `15px`
 $font-size-sm: 0.8125rem !default; //13px

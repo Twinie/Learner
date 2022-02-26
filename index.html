@@ -17,11 +17,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid px-4">
-                <!-- <div class="hamburger-menu mt-1">
-                    <div class="line line-1 mx-auto mt-2 bg-warning w-75"></div>
-                    <div class="line line-2 mx-auto mt-2 bg-warning w-75"></div>
-                    <div class="line line-3 mx-auto mt-2 bg-warning w-75"></div>
-                </div> -->
+
                 <a class="navbar-brand" href="#"><img src="./images/lerner-logo.png" alt="" class="hamburger"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,9 +28,12 @@
                 <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
 
                     <form class="d-flex align-items-center justify-content-center justify-content-lg-start flex-dms">
-                        <input class="search-button form-control me-2 rounded-pill" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <div class="border-0 rounded-circle" type="submit"><img src="./images/filter.png" alt=""></div>
+                        <input class="search-button form-control me-2 rounded-pill border-0" type="search"
+                            placeholder="" aria-label="Search">
+                        <i class="text-secondary fas fa-magnifying-glass"></i>
+
+                        <div type="submit"><img src="./images/filter.png" alt="" class="filter border-0 ">
+                        </div>
                     </form>
 
                     <ul class="navbar-nav ms-auto my-2 mb-lg-0 align-items-center">
@@ -141,7 +140,7 @@
                 <div class="col-lg-3 mb-3">
                     <div class="box-radius px-5 py-4 d-flex align-items-center bg-white">
                         <div class="icon-dms">
-                            <i class="text-primary fs-3 fas fa-glasses me-4"></i>
+                            <i class="specs-icon rounded-circle text-primary fs-3 fas fa-glasses me-4"></i>
                         </div>
                         <div class="ps-2">
                             <h4 class="fw-bold mb-0 mt-3">189</h4>
@@ -153,7 +152,7 @@
                 <div class="col-lg-3 mb-3">
                     <div class="box-radius bg-white px-5 py-4 d-flex align-items-center">
                         <div class="icon-dms">
-                            <i class="fas fa-calendar text-color fs-3 me-4"></i>
+                            <i class="cal-icon1 rounded-circle fas fa-calendar text-color fs-3 me-4"></i>
                         </div>
                         <div class="ps-2">
                             <h4 class="fw-bold mb-0 mt-3">1636</h4>
@@ -166,7 +165,7 @@
                 <div class="col-lg-3 mb-3">
                     <div class="box-radius bg-white px-5 py-4 d-flex align-items-center">
                         <div class="icon-dms">
-                            <i class="fas fa-calendar text-danger fs-3 me-4"></i>
+                            <i class="cal-icon2 rounded-circle fas fa-calendar text-danger fs-3 me-4"></i>
                         </div>
                         <div class="ps-2">
                             <h4 class="fw-bold mb-0 mt-3">1636</h4>
@@ -179,7 +178,7 @@
                 <div class="col-lg-3 mb-3">
                     <div class="box-radius bg-white px-5 py-4 d-flex align-items-center">
                         <div class="icon-dms">
-                            <i class="fas fa-calendar text-success fs-3 me-4"></i>
+                            <i class="cal-icon2 rounded-circle fas fa-calendar text-success fs-3 me-4"></i>
                         </div>
                         <div class="ps-2">
                             <h4 class="fw-bold mb-0 mt-3">1636</h4>
@@ -416,7 +415,11 @@
                                         </td>
                                         <td class="pt-4 font-dms">$150/hour</td>
                                         <td class="text-success pt-4 font-dms">+5</td>
-                                        <td class="pt-4 font-dms fw-bold text-white">Available</td>
+                                        <td class="pt-4 font-dms fw-bold text-white">
+                                            <div class="available-status rounded-pill">
+                                                Available
+                                            </div>
+                                        </td>
                                         <td class="pt-4 font-dms"><img src="./images/dots-3.png" alt=""></td>
                                     </tr>
                                     <tr>
@@ -431,7 +434,11 @@
                                         </td>
                                         <td class="pt-4 font-dms">$150/hour</td>
                                         <td class="text-success pt-4 font-dms">+5</td>
-                                        <td class="pt-4 font-dms fw-bold text-white">In class</td>
+                                        <td class="pt-4 font-dms fw-bold text-white">
+                                            <div class="inclass-status rounded-pill">
+                                                In class
+                                            </div>
+                                        </td>
                                         <td class="pt-4 font-dms"><img src="./images/dots-3.png" alt=""></td>
                                     </tr>
                                     <tr>
@@ -446,7 +453,11 @@
                                         </td>
                                         <td class="pt-4 font-dms">$150/hour</td>
                                         <td class="text-success pt-4 font-dms">+5</td>
-                                        <td class="pt-4 font-dms fw-bold text-white">Available</td>
+                                        <td class="pt-4 font-dms fw-bold text-white">
+                                            <div class="available-status rounded-pill">
+                                                Available
+                                            </div>
+                                        </td>
                                         <td class="pt-4 font-dms"><img src="./images/dots-3.png" alt=""></td>
                                     </tr>
 
@@ -462,7 +473,11 @@
                                         </td>
                                         <td class="pt-4 font-dms">$150/hour</td>
                                         <td class="text-success pt-4 font-dms">+5</td>
-                                        <td class="pt-4 font-dms fw-bold text-white">On leave</td>
+                                        <td class="pt-4 font-dms fw-bold text-white">
+                                            <div class="onleave-status rounded-pill">
+                                                On leave
+                                            </div>
+                                        </td>
                                         <td class="pt-4 font-dms"><img src="./images/dots-3.png" alt=""></td>
                                     </tr>
 
@@ -478,7 +493,11 @@
                                         </td>
                                         <td class="pt-4 font-dms">$150/hour</td>
                                         <td class="text-success pt-4 font-dms">+5</td>
-                                        <td class="pt-4 font-dms fw-bold text-white">Available</td>
+                                        <td class="pt-4 font-dms fw-bold text-white">
+                                            <div class="available-status rounded-pill">
+                                                Available
+                                            </div>
+                                        </td>
                                         <td class="pt-4 font-dms"><img src="./images/dots-3.png" alt=""></td>
                                     </tr>
                                 </tbody>
